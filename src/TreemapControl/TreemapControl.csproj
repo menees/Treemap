@@ -3,7 +3,7 @@
 		<TargetFrameworks>netcoreapp3.1;net45</TargetFrameworks>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<UseWindowsForms>true</UseWindowsForms>
-		<Description>Windows Forms treemap custom control</Description>
+		<Description>Windows Forms treemap control</Description>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 	</PropertyGroup>
 	<ItemGroup>
