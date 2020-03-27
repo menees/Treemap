@@ -1,0 +1,28 @@
+<Project>
+	<PropertyGroup>
+		<NeutralLanguage>en-US</NeutralLanguage>
+		<Authors>Microsoft Research</Authors>
+		<PackageProjectUrl>https://www.microsoft.com/en-us/research/</PackageProjectUrl>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/bmenees/Treemap</RepositoryUrl>
+		<GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+		<SignAssembly>true</SignAssembly>
+		<LangVersion>latest</LangVersion>
+		<Copyright>(c) Microsoft Corporation.  All rights reserved.</Copyright>
+
+		<!-- These paths must be relative to the projects that include the property (not to this .props file). -->
+		<AssemblyOriginatorKeyFile>../Treemap.snk</AssemblyOriginatorKeyFile>
+
+		<!-- Make the assembly, file, and NuGet package versions the same. -->
+		<Version>1.0.2</Version>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)'=='Debug'">
+		<DefineConstants>DEBUG;TRACE</DefineConstants>
+		<CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)'=='Release'">
+		<DefineConstants>TRACE</DefineConstants>
+	</PropertyGroup>
+</Project>

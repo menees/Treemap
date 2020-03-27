@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreemapGenerator", "src\TreemapGenerator\TreemapGenerator.csproj", "{30CA5F6A-63C8-4812-A23B-69E8BB78CC52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreemapControl", "src\TreemapControl\TreemapControl.csproj", "{38BA1D17-92E1-47E9-9519-FCBF89D3436F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7175C9E9-376F-4773-B161-8AB9F229EA47}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{A1A2606F-114E-4EE5-BC2D-6D873C63B83B}"
+	ProjectSection(SolutionItems) = preProject
+		src\Directory.Build.props = src\Directory.Build.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30CA5F6A-63C8-4812-A23B-69E8BB78CC52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30CA5F6A-63C8-4812-A23B-69E8BB78CC52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30CA5F6A-63C8-4812-A23B-69E8BB78CC52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30CA5F6A-63C8-4812-A23B-69E8BB78CC52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38BA1D17-92E1-47E9-9519-FCBF89D3436F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38BA1D17-92E1-47E9-9519-FCBF89D3436F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38BA1D17-92E1-47E9-9519-FCBF89D3436F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38BA1D17-92E1-47E9-9519-FCBF89D3436F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4085FEC0-AE58-4FAD-B7FF-3D56F8D7824F}
+	EndGlobalSection
+EndGlobal
