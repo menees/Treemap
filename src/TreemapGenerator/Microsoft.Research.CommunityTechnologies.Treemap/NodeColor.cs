@@ -4,13 +4,10 @@ using System.Runtime.InteropServices;
 
 namespace Microsoft.Research.CommunityTechnologies.Treemap
 {
-	[StructLayout(LayoutKind.Explicit)]
 	internal struct NodeColor
 	{
-		[FieldOffset(0)]
 		private float m_fColorMetric;
 
-		[FieldOffset(0)]
 		private Color m_oAbsoluteColor;
 
 		public float ColorMetric
