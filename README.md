@@ -1,6 +1,6 @@
 # Treemap
 
-These libraries originally came from [Microsoft Research Downloads](http://research.microsoft.com/research/downloads/), and they were part of the [Data Visualization Components](http://research.microsoft.com/en-us/downloads/dda33e92-f0e8-4961-baaa-98160a006c27/default.aspx), which were free for non-commercial use and available under the Microsoft Research Shared Source License. Unfortunately, the libraries and code were last updated by Microsoft in 2006, and they targeted .NET 1.1, which was 32-bit only. By 2014, Microsoft Research no longer made the libraries or code available for download, and even the [Wayback Machine](https://web.archive.org/web/20101205013557/http://research.microsoft.com/en-us/downloads/dda33e92-f0e8-4961-baaa-98160a006c27/default.aspx) doesn't have the downloads.
+These libraries originally came from [Microsoft Research Downloads](http://research.microsoft.com/research/downloads/), and they were part of the [Data Visualization Components](http://research.microsoft.com/en-us/downloads/dda33e92-f0e8-4961-baaa-98160a006c27/default.aspx), which were _free for non-commercial use_ and available under the Microsoft Research Shared Source License. Unfortunately, the libraries and code were last updated by Microsoft in 2006, and they targeted .NET 1.1, which was 32-bit only. By 2014, Microsoft Research no longer made the libraries or code available for download, and even the [Wayback Machine](https://web.archive.org/web/20101205013557/http://research.microsoft.com/en-us/downloads/dda33e92-f0e8-4961-baaa-98160a006c27/default.aspx) doesn't have the downloads.
 
 This repo updates the 2006 code to:
 * Build in Visual Studio 2019
@@ -8,11 +8,15 @@ This repo updates the 2006 code to:
 * Use the "Any CPU" platform
 * Target .NET Framework 4.5 and .NET Core 3.1
 * Produce NuGet packages
+  
+|TreemapGenerator|TreemapControl|
+|---|---|
+|[![TreemapGenerator](https://img.shields.io/nuget/v/TreemapGenerator)](https://www.nuget.org/packages/TreemapGenerator/)|[![TreemapControl](https://img.shields.io/nuget/v/TreemapControl)](https://www.nuget.org/packages/TreemapControl/)|
 
-For more information:
-* See Microsoft's [Treemap.chm](docs/Treemap.chm) Windows Help file for API-level details on using TreemapGenerator and TreemapControl.
-* See [Treemap Visualizations of Newsgroups](https://www.microsoft.com/en-us/research/publication/treemap-visualizations-of-newsgroups/) for the October 2001 paper where these components were first used.
-* See Wikipedia's [Treemapping](https://en.wikipedia.org/wiki/Treemapping) article.
+For more information see:
+* Microsoft's [Treemap.chm](docs/Treemap.chm) Windows Help file for API-level details on using TreemapGenerator and TreemapControl.
+* Microsoft Research's [Treemap Visualizations of Newsgroups](https://www.microsoft.com/en-us/research/publication/treemap-visualizations-of-newsgroups/) paper from October 2001 where these components were first used.
+* Wikipedia's [Treemapping](https://en.wikipedia.org/wiki/Treemapping) article.
 
 ## Microsoft Notes From 2006
 
