@@ -4,7 +4,7 @@
 		<Authors>Microsoft Research</Authors>
 		<PackageProjectUrl>https://www.microsoft.com/en-us/research/</PackageProjectUrl>
 		<RepositoryType>git</RepositoryType>
-		<RepositoryUrl>https://github.com/bmenees/Treemap</RepositoryUrl>
+		<RepositoryUrl>https://github.com/menees/Treemap</RepositoryUrl>
 		<GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
 		<SignAssembly>true</SignAssembly>
 		<LangVersion>latest</LangVersion>
